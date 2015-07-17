@@ -219,8 +219,6 @@ function rili()
 			}
 		}
 		
-		
-		
 		// 接收参数
 		
 		var oXjh=getByClass(document,'tiphover');
