@@ -53,11 +53,12 @@ a:hover{
   background: url(images/school.png) no-repeat 0 0;
 }
 .calendarBox {
-	width:300px;
-  height: 144px;
+	width:320px;
+  height: 164px;
   margin:50px auto;
   border:1px solid #ddd;
   border-radius:5px;
+  padding:10px;
 }
 .calendarBox .head p {
   float: left;
