@@ -4,6 +4,14 @@ try{
 }catch (e){
 	console.log(e)	
 }
+
+function drag(obj){
+	var obj=document.getElementById(obj);	
+	obj.onmousedown=function(){
+		
+	}
+}
+
 function rili()
 {
 	var oRiliBox=getByClass(document,'calendarBox')[0];

@@ -38,8 +38,9 @@ a:hover{
 	box-sizing: border-box
 }
 .Calendar {
-	
+	position:relative;
 }
+
 .school_warp {
   padding-left: 5px;
 }
@@ -52,12 +53,24 @@ a:hover{
   background: url(images/school.png) no-repeat 0 0;
 }
 .calendarBox {
+	position:relative;
 	width:320px;
   height: 164px;
   margin:50px auto;
   border:1px solid #ddd;
   border-radius:5px;
   padding:10px;
+}
+.drag{
+	position:absolute; 
+	left:-13px;
+	top:-13px;
+	width:26px;
+	height:26px;
+	border-radius:50%;
+	background:#C66;
+	border:#C06 1px solid;
+	cursor:move;
 }
 .calendarBox .head p {
   float: left;
