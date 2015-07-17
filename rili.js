@@ -7,6 +7,7 @@ try{
 
 function drag(obj){
 	var obj=document.getElementById(obj);	
+	var dis=0;
 	obj.onmousedown=function(){
 		
 	}
