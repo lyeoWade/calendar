@@ -4,8 +4,6 @@ try{
 }catch (e){
 	console.log(e)	
 }
-
-
 function rili()
 {
 	var oRiliBox=getByClass(document,'calendarBox')[0];
