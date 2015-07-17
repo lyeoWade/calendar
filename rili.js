@@ -1,4 +1,3 @@
-
 try{
 	rili();
 }catch (e){
@@ -7,11 +6,14 @@ try{
 
 function drag(obj){
 	var obj=document.getElementById(obj);	
-	var dis=0;
+	var disX=0;
+	var disY=0;
 	obj.onmousedown=function(){
 		
 	}
 }
+
+
 
 function rili()
 {
