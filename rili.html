@@ -90,9 +90,11 @@
 	git commit -m "撤销上一次的提交和这次的一起提交" --amend
 	
 	
-	git rm demo.html  //删除暂存区的文件
+	git rm demo.html  //删除暂存区的文件( 在工作去已经被删除掉的 )
 	
+	git rm --cached demo.html // 删除暂存区的文件 （工作区不被删除）
 	
+	git rm -f demo.html // 删除暂存区的文件（工作区的文件也会被删除）
 	
 */
 </script>
