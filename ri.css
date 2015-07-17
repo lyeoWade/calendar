@@ -1,0 +1,244 @@
+/*
+* @description: 公共样式
+* @author: 空杯--
+* @update: 空杯-- (2015-06-27 9:32)
+* @QQ    : 513632026
+* @Email : xiahaibingblag@163.com
+*/
+
+@charset utf-8;
+
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:12px; background:#fdfdfd; font-family:"微软雅黑";  }
+img{border:none;}
+ul,ol{list-style:none;}
+input,select,textarea{outline:none; border:none; background:#FFF;}
+textarea{resize:none;}
+a{text-decoration:none; }
+a:hover{
+	text-decoration:none;	
+}
+
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+.fl{ float:left; }
+.fr{ float:right; }
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+:after,:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+.Calendar {
+	
+}
+
+.school_warp {
+  padding-left: 5px;
+}
+.school {
+  width: 84px;
+  height: 24px;
+  margin-top: 22px;
+  text-indent: 13px;
+  line-height: 24px;
+  background: url(images/school.png) no-repeat 0 0;
+}
+.calendarBox {
+	width:300px;
+  height: 144px;
+  margin:50px auto;
+  border:1px solid #ddd;
+  border-radius:5px;
+}
+.calendarBox .head p {
+  float: left;
+  width: 90px;
+  height: 100px;
+}
+.calendarBox .nowDay {
+  position: relative;
+  width: 76px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 24px;
+}
+.nowDay span {
+  color: #fff;
+  display: inline-block;
+  width: 40px;
+  padding-top: 12px;
+  height: 38px;
+  line-height: 24px;
+  font-size: 16px;
+  background: url(images/day.png) no-repeat;
+  color: #3d3d3d;
+}
+.calendarBox .nowDay .prevx,
+.nextx {
+  width: 7px;
+  height: 11px;
+  position: absolute;
+  top: 50%;
+  margin-top: -5px;
+}
+.prevx {
+  left: 6px;
+  background: url(images/ri_left.png) no-repeat;
+}
+.nextx {
+  right: 5px;
+  background: url(images/ri_right.png) no-repeat;
+}
+.head_day {
+  font-size: 10px;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  top: 15px;
+  left: 0px;
+}
+.head_day span {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+.dayDate {
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  font-size: 70px;
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  width: 100px;
+  height: 100px;
+}
+.calendarBox .divbox {
+  padding-right: 10px;
+}
+.calendarBox .week {
+  height: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  width: 196px;
+  color: #3d3d3d;
+}
+.calendarBox .week li {
+  float: left;
+  width: 24px;
+  margin-right: 4px;
+}
+.calendarBox .day {
+  width: 196px;
+  line-height: 16px;
+  text-align: center;
+}
+.calendarBox .day li {
+  font-family: "微软雅黑";
+  margin: 0 4px 2px 0;
+  cursor: pointer;
+  width: 24px;
+  height: 16px;
+  float: left;
+}
+.calendarBox .day li.ccc {
+  color: #dddddd;
+}
+.NowDay {
+  color: #fff;
+  background:url(images/rl_xuanjiang.png) no-repeat;
+}
+.nowYear {
+  text-align: center;
+  line-height: 24px;
+  margin-right: 8px;
+  font-size: 14px;
+}
+.smallDay {
+  color: #3d3d3d;
+}
+.sunday {
+  color: #F00;
+}
+.zhaopin {
+  color: #fff;
+  background: url(images/zhaopin.png) no-repeat;
+}
+.xuanjianghui,
+.zhaoph {
+  color: #fff;
+  position: relative;
+}
+.xuanjianghui .center_block,
+.zhaoph .center_block {
+  width: 300px;
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  margin-left: -150px;
+  display: none;
+  height: 20px;
+}
+.xuanjianghui .center_block span,
+.zhaoph .center_block span {
+  font-style: normal;
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  background: url(images/ri_icon.png) no-repeat 0 -40px;
+  padding: 0 0 0 10px;
+}
+.xuanjianghui .center_block b,
+.zhaoph .center_block b {
+  height: 20px;
+  display: inline-block;
+  background: url(images/ri_icon.png) no-repeat right -20px;
+  padding-right: 10px;
+}
+.xuanjianghui .center_block em,
+.zhaoph .center_block em {
+  height: 20px;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 12px;
+  padding: 0 6px;
+  font-style: normal;
+  background: url(images/ri_icon.png) repeat-x 0 0;
+}
+.xuanjianghui .center_block i,
+.zhaoph .center_block i {
+  background: url(images/ri_icon.png) repeat-x 0 -63px;
+  width: 12px;
+  height: 6px;
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  margin-left: -6px;
+}
+.xuanjianghui {
+  background: url(images/icon.png) no-repeat 0 -14px;
+}
+.xuanjianghui em {
+  color: #00ac96;
+}
+.zhaoph {
+  background: url(images/icon.png) no-repeat 0 -31px;
+}
+.zhaoph em {
+  color: #df7a1f;
+}
+.red{ color:red; border-radius:5px; background:#ccc; }
+/* 日历  结束*/
